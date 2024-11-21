@@ -7,7 +7,7 @@ class ContactsAdmin(admin.ModelAdmin):
 class ExercisesAdmin(admin.ModelAdmin):
     pass
 
-class TrainersAdmin(admin.ModelAdmin):
+class CoachesAdmin(admin.ModelAdmin):
     pass
     
     
@@ -17,5 +17,5 @@ class StudentsAdmin(admin.ModelAdmin):
 
 admin.site.register(Contacts, ContactsAdmin)
 admin.site.register(Exercises, ExercisesAdmin)
-admin.site.register(Trainers, TrainersAdmin)
-admin.site.register(Students, StudentsAdmin)
+admin.site.register(Coach, CoachesAdmin)
+admin.site.register(Student, StudentsAdmin)
