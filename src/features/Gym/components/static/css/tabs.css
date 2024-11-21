@@ -1,0 +1,77 @@
+.coaches-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+}
+
+.coach-item {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.coach-item h3 {
+    margin: 0 0 8px;
+}
+
+.coach-item p {
+    margin: 0;
+    color: #555;
+}
+
+.classes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+}
+
+.class-item {
+    background-color: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class-item h3 {
+    margin: 0 0 8px;
+}
+
+.class-item p {
+    margin: 0;
+    color: #555;
+}
+
+.contact-container {
+    padding: 5rem 0;
+    background-color: #F3F4F6;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-container .contact-info {
+    margin-top: 2rem;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.contact-container .contact-info h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.contact-container .contact-info p {
+    margin-bottom: 0.5rem;
+}

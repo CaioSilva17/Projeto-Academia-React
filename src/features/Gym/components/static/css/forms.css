@@ -1,0 +1,84 @@
+.exercise-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.exercise-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise-form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.exercise-form input,
+.exercise-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.exercise-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.exercise-form button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos do formulário de contato */
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form-container label {
+  font-size: 1rem;
+  color: #4A4A4A;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+}
+
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+  border-color: #4A90E2;
+}
+
+.contact-form-container button {
+  background-color: #4A90E2;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form-container button:hover {
+  background-color: #357ABD;
+}
+
+.contact-form-container .error {
+  color: red;
+}
+
+.contact-form-container .success {
+  color: green;
+}
